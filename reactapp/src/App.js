@@ -39,6 +39,7 @@ const App = () => {
 
   const income = sum(incomeList)
   //.reduce((acc, value) => acc + value, 0);
+  console.log(income);
   const expenses = sum(expensesList);
 
 

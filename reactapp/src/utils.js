@@ -14,11 +14,25 @@ export function currencyFormat(number) {
     });
   }
   
- function sum(list) {
-               //Implement the sum function so that it calculates the monthly income and expenditure  
+ 
+  // export function sum(array) {
+    //Implement the sum function so that it calculates the monthly income and expenditure
+    function sum(list) {
+      // console.log(list)
+        return list.reduce((total, item) => total + item.value, 0);
       }
-
+  // function sum(list) {
+  //   return list.reduce((total, item) => total + item.value, 0);
+  // }
   
   export { sum };
 
- 
+  // }
+
+  // solution
+//   // Utils.js
+// function sum(list) {
+//   return list.reduce((total, item) => total + item.value, 0);
+// }
+
+// export { sum };
